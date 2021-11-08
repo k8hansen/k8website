@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -26,11 +27,10 @@ export default function Home() {
       </main>
 
       <footer>
-        <i class="fab fa-spotify">
-          <a href="https://open.spotify.com/user/1259062356?si=0622492c6e224a9e"></a>
-        </i>
+        <Link href="https://open.spotify.com/user/1259062356?si=0622492c6e224a9e">
+          <i class="fab fa-spotify"></i>
+        </Link>
 
-        <p>2021</p>
         {/* <FontAwesomeIcon icon={["fab", "spotify"]} /> */}
       </footer>
 
@@ -72,7 +72,7 @@ export default function Home() {
           align-items: center;
         }
 
-        footer i {
+        footer .fas {
           color: black;
           font-size: 16px;
           width: 200px;
