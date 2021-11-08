@@ -26,7 +26,10 @@ export default function Home() {
       </main>
 
       <footer>
-        <i class="fas fa-spotify"></i>
+        <i class="fab fa-spotify">
+          <a href="https://open.spotify.com/user/1259062356?si=0622492c6e224a9e"></a>
+        </i>
+
         <p>2021</p>
         {/* <FontAwesomeIcon icon={["fab", "spotify"]} /> */}
       </footer>
