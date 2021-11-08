@@ -10,16 +10,25 @@ export default function Home() {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap"
         />
+        <script
+          src="https://kit.fontawesome.com/1983994918.js"
+          crossorigin="anonymous"
+        ></script>
       </Head>
 
       <main>
         <h1 className="title">Welcome to Kate</h1>
 
-        <p className="description">I'm just a girl</p>
+        <p className="description">
+          This site is under construction. Check back soon.
+        </p>
+        <i class="fas fa-drumstick-bite"></i>
       </main>
 
       <footer>
-        <p>footer will go here</p>
+        <i class="fas fa-spotify"></i>
+        <p>2021</p>
+        {/* <FontAwesomeIcon icon={["fab", "spotify"]} /> */}
       </footer>
 
       <style jsx>{`
@@ -58,6 +67,15 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
+        }
+
+        footer i {
+          color: black;
+          font-size: 16px;
+          width: 200px;
+          height: 200px;
+          position: absolute;
+          z-index: 3;
         }
 
         a {
