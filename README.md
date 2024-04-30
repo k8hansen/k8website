@@ -1,3 +1,3 @@
 # Hello
 
-I'm working on trying to learn Next.js.
+Just a website about me!
