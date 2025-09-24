@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
 html,
@@ -59,13 +59,51 @@ footer .fas {
   z-index: 3;
 }
 
+footer {
+  gap: 3rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+  background-color: transparent;
+  padding: 0;
+  box-shadow: none;
+  transform: none;
+}
+
 footer i {
   font-size: 1.5em;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: #0066cc;
+  text-decoration: underline;
+  text-decoration-color: #bc8f8f;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  font-weight: normal;
+  transition: all 0.15s ease;
+  position: relative;
+}
+
+a:hover {
+  color: #008080;
+  text-decoration-color: #dda0dd;
+  background-color: rgba(125, 211, 192, 0.2);
+  padding: 1px 3px;
+  border-radius: 2px;
+  box-shadow: 3px 3px 0px rgba(125, 211, 192, 0.6);
+  transform: translate(-1px, -1px);
+}
+
+a:active {
+  background-color: #00ffff;
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px #008080;
 }
 
 .title a {

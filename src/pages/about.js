@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div>
-      <h1>Hello</h1>
+      <h1>It's me</h1>
       <p>
         b. 1982
         <br />
