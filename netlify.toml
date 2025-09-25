@@ -1,12 +1,16 @@
 [build]
-  command = "pnpm build"
-  publish = "out"
+  command = "pnpm install && pnpm build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
 
 [build.environment]
   NODE_VERSION = "18"
   NEXT_TELEMETRY_DISABLED = "1"
+  NPM_CONFIG_PACKAGE_MANAGER = "pnpm"
+  PNPM_VERSION = "8"
 
-# Next.js specific settings
 [[headers]]
   for = "/_next/static/*"
   [headers.values]
@@ -18,6 +22,7 @@
     Cache-Control = "public, max-age=0, must-revalidate"
 
 [[headers]]
-  for = "/*.css"
+  for = "/*"
   [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"

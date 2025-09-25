@@ -6,11 +6,7 @@ const nextConfig = {
     styledComponents: true,
   },
   
-  // Enable static export
-  output: 'export',
-  trailingSlash: true,
-  
-  // Image optimization settings for static export
+  // Image optimization settings
   images: {
     unoptimized: true,
   },
