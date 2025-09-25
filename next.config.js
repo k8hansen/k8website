@@ -5,18 +5,14 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-  
-  // Enable static export
-  output: 'export',
-  trailingSlash: true,
-  
-  // Image optimization settings for static export
+
+  // Image optimization settings
   images: {
     unoptimized: true,
   },
-  
+
   // Disable x-powered-by header
   poweredByHeader: false,
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
