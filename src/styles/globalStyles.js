@@ -38,6 +38,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 3rem;
 }
 
 footer img {
@@ -48,6 +49,7 @@ footer a {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 footer .fas {
@@ -57,22 +59,6 @@ footer .fas {
   height: 200px;
   position: absolute;
   z-index: 3;
-}
-
-footer {
-  gap: 3rem;
-}
-
-footer a {
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: none;
-  background-color: transparent;
-  padding: 0;
-  box-shadow: none;
-  transform: none;
 }
 
 footer i {
@@ -92,45 +78,12 @@ a {
 
 a:hover {
   color: #008080;
-  text-decoration-color: #dda0dd;
-  background-color: rgba(125, 211, 192, 0.2);
-  padding: 1px 3px;
-  border-radius: 2px;
-  box-shadow: 3px 3px 0px rgba(125, 211, 192, 0.6);
-  transform: translate(-1px, -1px);
 }
 
 a:active {
   background-color: #00ffff;
   transform: translate(1px, 1px);
   box-shadow: 1px 1px 0px #008080;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
 }
 
 code {
@@ -147,7 +100,6 @@ code {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
   max-width: 800px;
   margin-top: 3rem;
 }
@@ -182,10 +134,6 @@ code {
   line-height: 1.5;
 }
 
-.logo {
-  height: 1em;
-}
-
 nav ul {
   display: flex;
   flex-direction: row;
@@ -195,10 +143,6 @@ nav ul {
 nav li {
   list-style-type: none;
   padding: 0 15px;
-}
-
-.fa-drumstick-bite {
-  font-size: 3em;
 }
 
 @media (max-width: 600px) {

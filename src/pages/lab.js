@@ -5,14 +5,22 @@ const Lab = () => {
     <div>
       <h1>Things I am currently working on</h1>
       <ul>
-        <li>A secret public art project</li>
         <li>
           <Link
-            href='https://www.modernlymorgan.com/product/cosmic-crush-pdf-pattern/?srsltid=AfmBOoq2lze6QydU0s4jsVvP4652hG-_cx1WQVWwpGJl5pYiGQ1mMGwK'
+            href='https://www.retaillearning.art/'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Cosmic Crush by Modernly Morgan
+            A secret public art project
+          </Link>
+        </li>
+        <li>
+          <Link
+            href='https://www.instagram.com/p/C5bLDyKrH_X/?hl=en'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Crossbody Wonder Bag by New Long Quilt Co.
           </Link>
         </li>
         <li>
@@ -28,6 +36,33 @@ const Lab = () => {
 
       <h1>Things that I've made</h1>
       <ul>
+        <li>
+          <Link
+            href='https://orangefloweryarn.com/free-patterns-1'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Age of Steam and Brass Kerchief by Orange Flower
+          </Link>
+        </li>
+        <li>
+          <Link
+            href='https://www.purlsoho.com/join-the-classic-ribbed-hat-kal'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Classic Ribbed Hat by Purl Soho
+          </Link>
+        </li>
+        <li>
+          <Link
+            href='https://www.instagram.com/p/C5bLDyKrH_X/?hl=en'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Crossbody Wonder Bag by New Song Quilt Co.
+          </Link>
+        </li>
         <li>
           <Link
             href='https://quiltyloveshop.com/products/star-pop-ii-pdf-quilt-pattern-automatic-download?srsltid=AfmBOoqCOSkuPmCf0JWYKLFZCICLqmxPCP5leUxSavUI8edPvdIecEEN'
